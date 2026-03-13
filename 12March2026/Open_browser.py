@@ -1,0 +1,26 @@
+from selenium import webdriver
+from time import sleep
+# driver = webdriver.Chrome()
+opts = webdriver.ChromeOptions()
+opts.add_experimental_option('detach' , True)
+driver = webdriver.Chrome(options=opts)
+
+# sleep(5)
+# driver = webdriver.Edge()
+# sleep(5)
+# driver = webdriver.Firefox()
+# sleep(5)
+driver.get("https://supertails.com")
+
+# driver.get("https://youtube.com/")
+# sleep(5)
+driver.maximize_window()
+# sleep(5)
+# driver.maximize_window()
+# sleep(5)
+driver.back()
+# sleep(5)
+driver.forward()
+# sleep(5)
+driver.refresh()
+# sleep(5)
