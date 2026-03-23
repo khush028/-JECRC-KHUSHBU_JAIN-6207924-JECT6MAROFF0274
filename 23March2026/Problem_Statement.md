@@ -23,5 +23,4 @@
 3. scroll to the 5th or 6th row choose a product 
 4. (use proper waits )
 ---
-## Task 3
 
