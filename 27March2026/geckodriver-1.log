@@ -1,0 +1,53 @@
+1774595602004	geckodriver	INFO	Listening on 127.0.0.1:55513
+1774595605183	mozrunner::runner	INFO	Running command: "C:\\Users\\hp\\.cache\\selenium\\firefox\\win64\\149.0\\firefox.exe" "--marionette" "--remote-debugging-por ... 5514" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofileeYxsj4"
+Dynamically enable window occlusion 0
+1774595606310	Marionette	INFO	Marionette enabled
+1774595606430	Marionette	INFO	Listening on port 58540
+WebDriver BiDi listening on ws://127.0.0.1:55514
+Read port: 58540
+1774595606593	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: "Experiment visual-card-updates has unknown featureId: newtabRefinedCardsLayout"
+1774595612507	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js, line 3497: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js, line 3497: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js, line 3497: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js, line 3497: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js, line 3497: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js, line 3497: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js, line 3497: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval, line 3497: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval, line 3497: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval, line 3497: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval, line 3497: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval line 3497 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval line 3497 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval line 3497 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval line 3497 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval line 3497 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval line 3497 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval, line 3497: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval, line 3497: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval line 3497 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval line 3497 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval line 3497 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval line 3497 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval line 3497 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval line 3497 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval line 3497 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval line 3497 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar.en_US.1KtRye9JMF0.es5.O/am=AAAACEBg/d=1/excm=A4oAVe,C7k5Qb,DlvF1d,HDmU1e,LHP7Jd,Nr0kfe,OM7xob,Osm49c,PzUdZb,Raq4cb,Tbao1e,Tu3MB,UAM5m,WsiMic,ZEfdxb,a66Lfe,acFuVc,base_chunk,ioVqHf,main_chunk,oPp5Le,root_chunk,wSn4ac/br=1/rs=AGKMywHF4Xt8AQrfvKyR8TzRlzPKTUSufQ/m=root_chunk,base_chunk,main_chunk,C7k5Qb,ZEfdxb,ioVqHf,Tbao1e,LHP7Jd,Raq4cb,PzUdZb,DlvF1d,acFuVc,Tu3MB,HDmU1e,WsiMic,wSn4ac,OM7xob,UAM5m,oPp5Le,a66Lfe,A4oAVe,Osm49c,Nr0kfe?cb=pcbcss, line 16188: Script terminated by timeout at:
+m4.prototype.runActive@https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar.en_US.1KtRye9JMF0.es5.O/am=AAAACEBg/d=1/excm=A4oAVe,C7k5Qb,DlvF1d,HDmU1e,LHP7Jd,Nr0kfe,OM7xob,Osm49c,PzUdZb,Raq4cb,Tbao1e,Tu3MB,UAM5m,WsiMic,ZEfdxb,a66Lfe,acFuVc,base_chunk,ioVqHf,main_chunk,oPp5Le,root_chunk,wSn4ac/br=1/rs=AGKMywHF4Xt8AQrfvKyR8TzRlzPKTUSufQ/m=root_chunk,base_chunk,main_chunk,C7k5Qb,ZEfdxb,ioVqHf,Tbao1e,LHP7Jd,Raq4cb,PzUdZb,DlvF1d,acFuVc,Tu3MB,HDmU1e,WsiMic,wSn4ac,OM7xob,UAM5m,oPp5Le,a66Lfe,A4oAVe,Osm49c,Nr0kfe?cb=pcbcss:16188:64
+_.aW.prototype.transition@https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar.en_US.1KtRye9JMF0.es5.O/am=AAAACEBg/d=1/excm=A4oAVe,C7k5Qb,DlvF1d,HDmU1e,LHP7Jd,Nr0kfe,OM7xob,Osm49c,PzUdZb,Raq4cb,Tbao1e,Tu3MB,UAM5m,WsiMic,ZEfdxb,a66Lfe,acFuVc,base_chunk,ioVqHf,main_chunk,oPp5Le,root_chunk,wSn4ac/br=1/rs=AGKMywHF4Xt8AQrfvKyR8TzRlzPKTUSufQ/m=root_chunk,base_chunk,main_chunk,C7k5Qb,ZEfdxb,ioVqHf,Tbao1e,LHP7Jd,Raq4cb,PzUdZb,DlvF1d,acFuVc,Tu3MB,HDmU1e,WsiMic,wSn4ac,OM7xob,UAM5m,oPp5Le,a66Lfe,A4oAVe,Osm49c,Nr0kfe?cb=pcbcss:1894:2
+m4.prototype.runFlush@https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar.en_US.1KtRye9JMF0.es5.O/am=AAAACEBg/d=1/excm=A4oAVe,C7k5Qb,DlvF1d,HDmU1e,LHP7Jd,Nr0kfe,OM7xob,Osm49c,PzUdZb,Raq4cb,Tbao1e,Tu3MB,UAM5m,WsiMic,ZEfdxb,a66Lfe,acFuVc,base_chunk,ioVqHf,main_chunk,oPp5Le,root_chunk,wSn4ac/br=1/rs=AGKMywHF4Xt8AQrfvKyR8TzRlzPKTUSufQ/m=root_chunk,base_chunk,main_chunk,C7k5Qb,ZEfdxb,ioVqHf,Tbao1e,LHP7Jd,Raq4cb,PzUdZb,DlvF1d,acFuVc,Tu3MB,HDmU1e,WsiMic,wSn4ac,OM7xob,UAM5m,oPp5Le,a66Lfe,A4oAVe,Osm49c,Nr0kfe?cb=pcbcss:16187:68
+_.aW.prototype.transition@https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar.en_US.1KtRye9JMF0.es5.O/am=AAAACEBg/d=1/excm=A4oAVe,C7k5Qb,DlvF1d,HDmU1e,LHP7Jd,Nr0kfe,OM7xob,Osm49c,PzUdZb,Raq4cb,Tbao1e,Tu3MB,UAM5m,WsiMic,ZEfdxb,a66Lfe,acFuVc,base_chunk,ioVqHf,main_chunk,oPp5Le,root_chunk,wSn4ac/br=1/rs=AGKMywHF4Xt8AQrfvKyR8TzRlzPKTUSufQ/m=root_chunk,base_chunk,main_chunk,C7k5Qb,ZEfdxb,ioVqHf,Tbao1e,LHP7Jd,Raq4cb,PzUdZb,DlvF1d,acFuVc,Tu3MB,HDmU1e,WsiMic,wSn4ac,OM7xob,UAM5m,oPp5Le,a66Lfe,A4oAVe,Osm49c,Nr0kfe?cb=pcbcss:1894:2
+m4.prototype.runDispose@https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar.en_US.1KtRye9JMF0.es5.O/am=AAAACEBg/d=1/excm=A4oAVe,C7k5Qb,DlvF1d,HDmU1e,LHP7Jd,Nr0kfe,OM7xob,Osm49c,PzUdZb,Raq4cb,Tbao1e,Tu3MB,UAM5m,WsiMic,ZEfdxb,a66Lfe,acFuVc,base_chunk,ioVqHf,main_chunk,oPp5Le,root_chunk,wSn4ac/br=1/rs=AGKMywHF4Xt8AQrfvKyR8TzRlzPKTUSufQ/m=root_chunk,base_chunk,main_chunk,C7k5Qb,ZEfdxb,ioVqHf,Tbao1e,LHP7Jd,Raq4cb,PzUdZb,DlvF1d,acFuVc,Tu3MB,HDmU1e,WsiMic,wSn4ac,OM7xob,UAM5m,oPp5Le,a66Lfe,A4oAVe,Osm49c,Nr0kfe?cb=pcbcss:16186:203
+_.aW.prototype.transition@https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar.en_US.1KtRye9JMF0.es5.O/am=AAAACEBg/d=1/excm=A4oAVe,C7k5Qb,DlvF1d,HDmU1e,LHP7Jd,Nr0kfe,OM7xob,Osm49c,PzUdZb,Raq4cb,Tbao1e,Tu3MB,UAM5m,WsiMic,ZEfdxb,a66Lfe,acFuVc,base_chunk,ioVqHf,main_chunk,oPp5Le,root_chunk,wSn4ac/br=1/rs=AGKMywHF4Xt8AQrfvKyR8TzRlzPKTUSufQ/m=root_chunk,base_chunk,main_chunk,C7k5Qb,ZEfdxb,ioVqHf,Tbao1e,LHP7Jd,Raq4cb,PzUdZb,DlvF1d,acFuVc,Tu3MB,HDmU1e,WsiMic,wSn4ac,OM7xob,UAM5m,oPp5Le,a66Lfe,A4oAVe,Osm49c,Nr0kfe?cb=pcbcss:1894:2
+m4/<@https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar.en_US.1KtRye9JMF0.es5.O/am=AAAACEBg/d=1/excm=A4oAVe,C7k5Qb,DlvF1d,HDmU1e,LHP7Jd,Nr0kfe,OM7xob,Osm49c,PzUdZb,Raq4cb,Tbao1e,Tu3MB,UAM5m,WsiMic,ZEfdxb,a66Lfe,acFuVc,base_chunk,ioVqHf,main_chunk,oPp5Le,root_chunk,wSn4ac/br=1/rs=AGKMywHF4Xt8AQrfvKyR8TzRlzPKTUSufQ/m=root_chunk,base_chunk,main_chunk,C7k5Qb,ZEfdxb,ioVqHf,Tbao1e,LHP7Jd,Raq4cb,PzUdZb,DlvF1d,acFuVc,Tu3MB,HDmU1e,WsiMic,wSn4ac,OM7xob,UAM5m,oPp5Le,a66Lfe,A4oAVe,Osm49c,Nr0kfe?cb=pcbcss:16181:114
+
+1774595619298	Marionette	INFO	Stopped listening on port 58540
+JavaScript error: resource://gre/modules/PrivateBrowsingUtils.sys.mjs, line 19: TypeError: can't access property "isChromeWindow", aWindow is null
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1128: Error: Connection is not open.

@@ -1,0 +1,44 @@
+1774595737739	geckodriver	INFO	Listening on 127.0.0.1:49364
+1774595740822	mozrunner::runner	INFO	Running command: "C:\\Users\\hp\\.cache\\selenium\\firefox\\win64\\149.0\\firefox.exe" "--marionette" "--remote-debugging-por ... 9365" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofilec1BZlW"
+Dynamically enable window occlusion 0
+1774595741138	Marionette	INFO	Marionette enabled
+1774595741223	Marionette	INFO	Listening on port 49373
+WebDriver BiDi listening on ws://127.0.0.1:49365
+Read port: 49373
+1774595741375	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: "Experiment visual-card-updates has unknown featureId: newtabRefinedCardsLayout"
+1774595746890	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js, line 4870: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js, line 4870: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js, line 4870: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js, line 4870: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js, line 4870: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js, line 4870: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js, line 4870: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval, line 4870: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval, line 4870: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval, line 4870: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval, line 4870: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval line 4870 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval line 4870 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval line 4870 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval line 4870 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval line 4870 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval line 4870 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval line 4870 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval line 4870 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval, line 4870: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval, line 4870: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval line 4870 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval line 4870 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval line 4870 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval line 4870 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval line 4870 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval line 4870 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval line 4870 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/KgIJfcKS2CxPN3l7ve8r4kGzdtIJOAO4xkt8HhbjKTA.js line 2 > eval line 4870 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+1774595754844	Marionette	INFO	Stopped listening on port 49373
+Dynamically enable window occlusion 1
+console.error: Translations: "Failed to run language detection." (new AbortError("Actor 'Translations' destroyed before query 'Translations:GetDocumentElementLang' was resolved", (void 0)))
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1128: Error: Connection is not open.

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.3 on win32)" generated="2026-03-27T14:38:49.442150" rpa="false" schemaversion="5">
+<suite id="s1" name="Opening Variable" source="C:\RobotFrameWork\Opening_Variable.robot">
+<test id="s1-t1" name="Opening Chrome headless Browser" line="26">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-03-27T14:38:49.636787" level="INFO">Opening browser 'headlesschrome' to base url 'https://www.cricbuzz.com/'.</msg>
+<arg>${url}</arg>
+<arg>headlesschrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-03-27T14:38:49.636460" elapsed="2.760332"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-03-27T14:38:52.397942" elapsed="0.032091"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-03-27T14:38:52.431037" level="INFO">navigated to cricbuzz</msg>
+<arg>navigated to cricbuzz</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-03-27T14:38:52.430551" elapsed="0.000576"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${bikes}[1]</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-03-27T14:38:52.431485" elapsed="0.000624"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${Cars.nissan}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-03-27T14:38:52.432431" elapsed="0.000605"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-27T14:38:55.433804" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-27T14:38:52.433281" elapsed="3.000637"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-03-27T14:38:55.434238" elapsed="2.207574"/>
+</kw>
+<doc>chrome headless browser navigating to https://www.cricbuzz.com/</doc>
+<tag>reg</tag>
+<tag>smoke</tag>
+<status status="PASS" start="2026-03-27T14:38:49.635167" elapsed="8.007149"/>
+</test>
+<doc>Opening of browser</doc>
+<status status="PASS" start="2026-03-27T14:38:49.445233" elapsed="8.197771"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">reg</stat>
+<stat pass="1" fail="0" skip="0">smoke</stat>
+</tag>
+<suite>
+<stat name="Opening Variable" id="s1" pass="1" fail="0" skip="0">Opening Variable</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-03-27T14:38:49.437709" level="WARN">Error in file 'C:\RobotFrameWork\Opening_Variable.robot' on line 1: Singular section headers like '*** Setting ***' are deprecated. Use plural format like '*** Settings ***' instead.</msg>
+</errors>
+</robot>

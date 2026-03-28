@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.3 on win32)" generated="2026-03-27T15:54:47.770309" rpa="false" schemaversion="5">
+<suite id="s1" name="Action" source="C:\RobotFrameWork\action.robot">
+<test id="s1-t1" name="Handling drag and drop" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-03-27T15:54:47.935679" level="INFO">Opening browser 'chrome' to base url 'https://the-internet.herokuapp.com/'.</msg>
+<arg>${url}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-03-27T15:54:47.935394" elapsed="3.947423"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-03-27T15:54:51.883614" elapsed="0.033914"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-27T15:54:53.919277" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-27T15:54:51.918284" elapsed="2.001334"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-03-27T15:54:53.922265" level="INFO">Clicking element 'xpath=//a[text()="Drag and Drop"]'.</msg>
+<arg>xpath=//a[text()="Drag and Drop"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-27T15:54:53.920584" elapsed="0.432821"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-27T15:54:56.355457" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-27T15:54:54.353935" elapsed="2.001702"/>
+</kw>
+<kw name="Drag And Drop" owner="SeleniumLibrary">
+<arg>id=column-a</arg>
+<arg>id=column-b</arg>
+<doc>Drags the element identified by ``locator`` into the ``target`` element.</doc>
+<status status="PASS" start="2026-03-27T15:54:56.356225" elapsed="0.563868"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-27T15:54:58.921854" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-27T15:54:56.920539" elapsed="2.001550"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-03-27T15:54:58.922952" elapsed="2.182345"/>
+</kw>
+<status status="PASS" start="2026-03-27T15:54:47.934195" elapsed="13.172007"/>
+</test>
+<test id="s1-t2" name="Handling Mouse hover" line="22">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-03-27T15:55:01.108797" level="INFO">Opening browser 'chrome' to base url 'https://the-internet.herokuapp.com/'.</msg>
+<arg>${url}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-03-27T15:55:01.108363" elapsed="4.363646"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-03-27T15:55:05.472301" elapsed="0.023098"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-27T15:55:07.496916" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-27T15:55:05.495783" elapsed="2.001235"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-03-27T15:55:07.497599" level="INFO">Clicking element 'xpath=//a[text()="Hovers"]'.</msg>
+<arg>xpath=//a[text()="Hovers"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-27T15:55:07.497412" elapsed="0.672682"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-27T15:55:10.172623" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-27T15:55:08.170906" elapsed="2.002095"/>
+</kw>
+<kw name="Mouse Over" owner="SeleniumLibrary">
+<msg time="2026-03-27T15:55:10.174941" level="INFO">Simulating Mouse Over on element 'xpath=//h5[text()="name: user2"]/ancestor::div[@class="figure"]'.</msg>
+<arg>xpath=//h5[text()="name: user2"]/ancestor::div[@class="figure"]</arg>
+<doc>Simulates hovering the mouse over the element ``locator``.</doc>
+<status status="PASS" start="2026-03-27T15:55:10.174367" elapsed="0.297175"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-27T15:55:12.473544" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-27T15:55:10.472360" elapsed="2.001533"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-03-27T15:55:12.474741" elapsed="2.174952"/>
+</kw>
+<status status="PASS" start="2026-03-27T15:55:01.107234" elapsed="13.543089"/>
+</test>
+<test id="s1-t3" name="Handling Scroll to element" line="34">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-03-27T15:55:14.652258" level="INFO">Opening browser 'chrome' to base url 'https://the-internet.herokuapp.com/'.</msg>
+<arg>${url}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-03-27T15:55:14.651905" elapsed="2.560131"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-03-27T15:55:17.213305" elapsed="2.530050"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-27T15:55:21.744935" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-27T15:55:19.743804" elapsed="2.001304"/>
+</kw>
+<kw name="Scroll Element Into View" owner="SeleniumLibrary">
+<arg>xpath=//a[text()='Typos']</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" start="2026-03-27T15:55:21.745719" elapsed="0.314270"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-27T15:55:32.061752" level="INFO">Slept 10 seconds.</msg>
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-27T15:55:22.060838" elapsed="10.001031"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-03-27T15:55:32.062548" elapsed="2.145059"/>
+</kw>
+<status status="PASS" start="2026-03-27T15:55:14.651263" elapsed="19.557096"/>
+</test>
+<status status="PASS" start="2026-03-27T15:54:47.771362" elapsed="46.438050"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Action" id="s1" pass="3" fail="0" skip="0">Action</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
