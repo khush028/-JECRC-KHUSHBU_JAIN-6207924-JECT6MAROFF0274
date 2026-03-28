@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.3 on win32)" generated="2026-03-28T12:46:54.815654" rpa="false" schemaversion="5">
+<suite id="s1" name="Java Execuator" source="C:\PyCharm\28March2026\java_execuator.robot">
+<test id="s1-t1" name="handling js" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-03-28T12:46:54.975592" level="INFO">Opening browser 'chrome' to base url 'https://inc.in/'.</msg>
+<arg>${url}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-03-28T12:46:54.975246" elapsed="9.785321"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-03-28T12:47:04.761296" elapsed="0.122881"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-28T12:47:07.885308" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-28T12:47:04.884582" elapsed="3.001007"/>
+</kw>
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2026-03-28T12:47:07.886746" level="INFO">Executing JavaScript:
+window.scrollTo(0,document.body.scrollHeight)
+Without any arguments.</msg>
+<arg>window.scrollTo(0,document.body.scrollHeight)</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2026-03-28T12:47:07.886163" elapsed="0.013054"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-28T12:47:10.901267" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-28T12:47:07.899973" elapsed="3.001497"/>
+</kw>
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2026-03-28T12:47:10.903318" level="INFO">Executing JavaScript:
+window.scrollTo(0,0)
+Without any arguments.</msg>
+<arg>window.scrollTo(0,0)</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2026-03-28T12:47:10.902485" elapsed="0.020983"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-28T12:47:13.925233" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-28T12:47:10.924393" elapsed="3.000933"/>
+</kw>
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2026-03-28T12:47:13.925955" level="INFO">Executing JavaScript:
+window.scrollBy(0,500)
+Without any arguments.</msg>
+<arg>window.scrollBy(0,500)</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2026-03-28T12:47:13.925641" elapsed="0.023369"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-28T12:47:16.950474" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-28T12:47:13.949259" elapsed="3.001489"/>
+</kw>
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2026-03-28T12:47:16.951475" level="INFO">Executing JavaScript:
+window.scrollTo(0,-200)
+Without any arguments.</msg>
+<arg>window.scrollTo(0,-200)</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2026-03-28T12:47:16.951187" elapsed="0.016466"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-28T12:47:19.969828" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-28T12:47:16.969180" elapsed="3.000862"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-03-28T12:47:19.970370" elapsed="2.219425"/>
+</kw>
+<status status="PASS" start="2026-03-28T12:46:54.974144" elapsed="27.216223"/>
+</test>
+<status status="PASS" start="2026-03-28T12:46:54.816834" elapsed="27.374437"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Java Execuator" id="s1" pass="1" fail="0" skip="0">Java Execuator</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

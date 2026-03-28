@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.3 on win32)" generated="2026-03-28T11:08:10.347647" rpa="false" schemaversion="5">
+<suite id="s1" name="Task1" source="C:\RobotFrameWork\28March2026\Task1.robot">
+<test id="s1-t1" name="handle dropdown" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-03-28T11:08:10.532828" level="INFO">Opening browser 'chrome' to base url 'https://testautomationpractice.blogspot.com/'.</msg>
+<arg>${url}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-03-28T11:08:10.532529" elapsed="4.132506"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-03-28T11:08:14.685106" elapsed="3.243772"/>
+</kw>
+<kw name="Scroll Element Into View" owner="SeleniumLibrary">
+<arg>xpath=//select[@id="colors"]</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" start="2026-03-28T11:08:17.929498" elapsed="0.294013"/>
+</kw>
+<kw name="Page Should Contain List" owner="SeleniumLibrary">
+<msg time="2026-03-28T11:08:18.254071" level="INFO">Current page contains list 'id=colors'.</msg>
+<arg>id=colors</arg>
+<doc>Verifies selection list ``locator`` is found from current page.</doc>
+<status status="PASS" start="2026-03-28T11:08:18.224309" elapsed="0.029960"/>
+</kw>
+<kw name="Get List Items" owner="SeleniumLibrary">
+<msg time="2026-03-28T11:08:18.328771" level="INFO">${options} = ['Red', 'Blue', 'Green', 'Yellow', 'Red', 'White', 'Green']</msg>
+<var>${options}</var>
+<arg>id=colors</arg>
+<doc>Returns all labels or values of selection list ``locator``.</doc>
+<status status="PASS" start="2026-03-28T11:08:18.254920" elapsed="0.073889"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${options}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-03-28T11:08:18.329284" elapsed="0.000934"/>
+</kw>
+<kw name="Select From List By Index" owner="SeleniumLibrary">
+<msg time="2026-03-28T11:08:18.331143" level="INFO">Selecting options from selection list 'id=colors' by index 1.</msg>
+<arg>id=colors</arg>
+<arg>1</arg>
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<status status="PASS" start="2026-03-28T11:08:18.330757" elapsed="0.085548"/>
+</kw>
+<kw name="Select From List By Index" owner="SeleniumLibrary">
+<msg time="2026-03-28T11:08:18.417073" level="INFO">Selecting options from selection list 'id=colors' by index 3.</msg>
+<arg>id=colors</arg>
+<arg>3</arg>
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<status status="PASS" start="2026-03-28T11:08:18.416841" elapsed="0.133707"/>
+</kw>
+<kw name="Get Selected List Labels" owner="SeleniumLibrary">
+<msg time="2026-03-28T11:08:18.628965" level="INFO">@{select_options} = [ Blue | Yellow ]</msg>
+<var>@{select_options}</var>
+<arg>id=colors</arg>
+<doc>Returns labels of selected options from selection list ``locator``.</doc>
+<status status="PASS" start="2026-03-28T11:08:18.551208" elapsed="0.077795"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${select_options}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-03-28T11:08:18.629704" elapsed="0.000968"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-28T11:08:21.632714" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-28T11:08:18.631184" elapsed="3.001835"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-03-28T11:08:21.634014" elapsed="2.237353"/>
+</kw>
+<status status="PASS" start="2026-03-28T11:08:10.531414" elapsed="13.340589"/>
+</test>
+<doc>handling dropdown</doc>
+<status status="PASS" start="2026-03-28T11:08:10.349111" elapsed="13.523476"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Task1" id="s1" pass="1" fail="0" skip="0">Task1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
