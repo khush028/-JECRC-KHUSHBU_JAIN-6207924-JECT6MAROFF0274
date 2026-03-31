@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.3 on win32)" generated="2026-03-31T17:25:42.691041" rpa="false" schemaversion="5">
+<suite id="s1" name="File upload download" source="C:\PyCharm\30March2026\File_upload_download.robot">
+<test id="s1-t1" name="File Upload" line="10">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-03-31T17:25:42.844550" level="INFO">Opening browser 'chrome' to base url 'https://the-internet.herokuapp.com/'.</msg>
+<arg>${url}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-03-31T17:25:42.844371" elapsed="10.907566"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-03-31T17:25:53.752723" elapsed="0.032366"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-31T17:25:56.786757" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-31T17:25:53.785583" elapsed="3.001308"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-03-31T17:25:56.787728" level="INFO">Clicking element 'xpath=//a[@href="/upload"]'.</msg>
+<msg time="2026-03-31T17:25:56.820221" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7b7e129c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff7b7b3a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff7b789d916]
+	chromedriver!(No symbol) [0x7ff7b78e8313]
+	chromedriver!(No symbol) [0x7ff7b791fe92]
+	chromedriver!(No symbol) [0x7ff7b791a011]
+	chromedriver!(No symbol) [0x7ff7b79192c3]
+	chromedriver!(No symbol) [0x7ff7b7866565]
+	chromedriver!GetHandleVerifier [0x7ff7b7e3de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff7b7e38588+313348]
+	chromedriver!GetHandleVerifier [0x7ff7b7e59d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff7b7b56785+31545]
+	chromedriver!GetHandleVerifier [0x7ff7b7b5facc+3a88c]
+	chromedriver!(No symbol) [0x7ff7b786532a]
+	chromedriver!GetHandleVerifier [0x7ff7b7f94b48+46f908]
+	KERNEL32!BaseThreadInitThunk [0x7ff818d5e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff81a90c48c+2c]
+</msg>
+<msg time="2026-03-31T17:25:56.821340" level="FAIL">InvalidSessionIdException: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=146.0.7680.165); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7b7e129c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff7b7b3a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff7b789db2d]
+	chromedriver!(No symbol) [0x7ff7b7888ca2]
+	chromedriver!(No symbol) [0x7ff7b78af416]
+	chromedriver!(No symbol) [0x7ff7b79270e0]
+	chromedriver!(No symbol) [0x7ff7b7943482]
+	chromedriver!(No symbol) [0x7ff7b78e9298]
+	chromedriver!(No symbol) [0x7ff7b78ea183]
+	chromedriver!GetHandleVerifier [0x7ff7b7e3de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff7b7e38588+313348]
+	chromedriver!GetHandleVerifier [0x7ff7b7e59d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff7b7b56785+31545]
+	chromedriver!GetHandleVerifier [0x7ff7b7b5facc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff7b7b43634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff7b7b437e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff7b7b27e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ff818d5e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff81a90c48c+2c]
+</msg>
+<arg>xpath=//a[@href="/upload"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="FAIL" start="2026-03-31T17:25:56.787362" elapsed="0.064914">InvalidSessionIdException: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=146.0.7680.165); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7b7e129c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff7b7b3a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff7b789db2d]
+	chromedriver!(No symbol) [0x7ff7b7888ca2]
+	chromedriver!(No symbol) [0x7ff7b78af416]
+	chromedriver!(No symbol) [0x7ff7b79270e0]
+	chromedriver!(No symbol) [0x7ff7b7943482]
+	chromedriver!(No symbol) [0x7ff7b78e9298]
+	chromedriver!(No symbol) [0x7ff7b78ea183]
+	chromedriver!GetHandleVerifier [0x7ff7b7e3de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff7b7e38588+313348]
+	chromedriver!GetHandleVerifier [0x7ff7b7e59d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff7b7b56785+31545]
+	chromedriver!GetHandleVerifier [0x7ff7b7b5facc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff7b7b43634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff7b7b437e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff7b7b27e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ff818d5e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff81a90c48c+2c]
+</status>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2026-03-31T17:25:56.852751" elapsed="0.000033"/>
+</kw>
+<kw name="Normalize Path" owner="OperatingSystem">
+<var>${path}</var>
+<arg>C:\\PyCharm\\30March2026/sample.text</arg>
+<doc>Normalizes the given path.</doc>
+<status status="NOT RUN" start="2026-03-31T17:25:56.853153" elapsed="0.000038"/>
+</kw>
+<kw name="Choose File" owner="SeleniumLibrary">
+<arg>id=file-upload</arg>
+<arg>${path}</arg>
+<doc>Inputs the ``file_path`` into the file input field ``locator``.</doc>
+<status status="NOT RUN" start="2026-03-31T17:25:56.853511" elapsed="0.000034"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2026-03-31T17:25:56.853842" elapsed="0.000035"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<arg>id=file-submit</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-03-31T17:25:56.854168" elapsed="0.000034"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2026-03-31T17:25:56.854488" elapsed="0.000036"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" start="2026-03-31T17:25:56.854791" elapsed="0.000034"/>
+</kw>
+<status status="FAIL" start="2026-03-31T17:25:42.843662" elapsed="14.011463">InvalidSessionIdException: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=146.0.7680.165); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7b7e129c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff7b7b3a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff7b789db2d]
+	chromedriver!(No symbol) [0x7ff7b7888ca2]
+	chromedriver!(No symbol) [0x7ff7b78af416]
+	chromedriver!(No symbol) [0x7ff7b79270e0]
+	chromedriver!(No symbol) [0x7ff7b7943482]
+	chromedriver!(No symbol) [0x7ff7b78e9298]
+	chromedriver!(No symbol) [0x7ff7b78ea183]
+	chromedriver!GetHandleVerifier [0x7ff7b7e3de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff7b7e38588+313348]
+	chromedriver!GetHandleVerifier [0x7ff7b7e59d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff7b7b56785+31545]
+	chromedriver!GetHandleVerifier [0x7ff7b7b5facc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff7b7b43634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff7b7b437e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff7b7b27e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ff818d5e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff81a90c48c+2c]
+</status>
+</test>
+<test id="s1-t2" name="File Download" line="28">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-03-31T17:25:56.856863" level="INFO">Opening browser 'chrome' to base url 'https://the-internet.herokuapp.com/'.</msg>
+<arg>${url}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-03-31T17:25:56.856633" elapsed="1.927248"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-03-31T17:25:58.784383" elapsed="1.509035"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-31T17:26:03.295796" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-31T17:26:00.294095" elapsed="3.001889"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-03-31T17:26:03.297077" level="INFO">Clicking element 'xpath=//a[@href="/download"]'.</msg>
+<msg time="2026-03-31T17:26:03.302062" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.165)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7b7e129c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff7b7b3a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff7b789db2d]
+	chromedriver!(No symbol) [0x7ff7b7874322]
+	chromedriver!(No symbol) [0x7ff7b7926e86]
+	chromedriver!(No symbol) [0x7ff7b7943482]
+	chromedriver!(No symbol) [0x7ff7b78e9298]
+	chromedriver!(No symbol) [0x7ff7b78ea183]
+	chromedriver!GetHandleVerifier [0x7ff7b7e3de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff7b7e38588+313348]
+	chromedriver!GetHandleVerifier [0x7ff7b7e59d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff7b7b56785+31545]
+	chromedriver!GetHandleVerifier [0x7ff7b7b5facc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff7b7b43634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff7b7b437e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff7b7b27e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ff818d5e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff81a90c48c+2c]
+</msg>
+<msg time="2026-03-31T17:26:03.302988" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.165)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7b7e129c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff7b7b3a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff7b789db2d]
+	chromedriver!(No symbol) [0x7ff7b7874322]
+	chromedriver!(No symbol) [0x7ff7b7926e86]
+	chromedriver!(No symbol) [0x7ff7b7943482]
+	chromedriver!(No symbol) [0x7ff7b78e9298]
+	chromedriver!(No symbol) [0x7ff7b78ea183]
+	chromedriver!GetHandleVerifier [0x7ff7b7e3de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff7b7e38588+313348]
+	chromedriver!GetHandleVerifier [0x7ff7b7e59d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff7b7b56785+31545]
+	chromedriver!GetHandleVerifier [0x7ff7b7b5facc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff7b7b43634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff7b7b437e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff7b7b27e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ff818d5e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff81a90c48c+2c]
+</msg>
+<arg>xpath=//a[@href="/download"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="FAIL" start="2026-03-31T17:26:03.296665" elapsed="0.009027">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.165)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7b7e129c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff7b7b3a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff7b789db2d]
+	chromedriver!(No symbol) [0x7ff7b7874322]
+	chromedriver!(No symbol) [0x7ff7b7926e86]
+	chromedriver!(No symbol) [0x7ff7b7943482]
+	chromedriver!(No symbol) [0x7ff7b78e9298]
+	chromedriver!(No symbol) [0x7ff7b78ea183]
+	chromedriver!GetHandleVerifier [0x7ff7b7e3de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff7b7e38588+313348]
+	chromedriver!GetHandleVerifier [0x7ff7b7e59d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff7b7b56785+31545]
+	chromedriver!GetHandleVerifier [0x7ff7b7b5facc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff7b7b43634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff7b7b437e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff7b7b27e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ff818d5e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff81a90c48c+2c]
+</status>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2026-03-31T17:26:03.306264" elapsed="0.000072"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>xpath=//a[@href="download/abc.txt"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-03-31T17:26:03.306992" elapsed="0.000060"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2026-03-31T17:26:03.307637" elapsed="0.000056"/>
+</kw>
+<kw name="Wait Until Created" owner="OperatingSystem">
+<arg>${Check_Download}</arg>
+<arg>timeout=10s</arg>
+<doc>Waits until the given file or directory is created.</doc>
+<status status="NOT RUN" start="2026-03-31T17:26:03.307924" elapsed="0.000042"/>
+</kw>
+<kw name="File Should Exist" owner="OperatingSystem">
+<arg>${Check_Download}</arg>
+<doc>Fails unless the given ``path`` points to an existing file.</doc>
+<status status="NOT RUN" start="2026-03-31T17:26:03.308195" elapsed="0.000044"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>File Downloaded</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2026-03-31T17:26:03.308556" elapsed="0.000043"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" start="2026-03-31T17:26:03.308851" elapsed="0.000041"/>
+</kw>
+<status status="FAIL" start="2026-03-31T17:25:56.856096" elapsed="6.453160">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.165)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7b7e129c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff7b7b3a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff7b789db2d]
+	chromedriver!(No symbol) [0x7ff7b7874322]
+	chromedriver!(No symbol) [0x7ff7b7926e86]
+	chromedriver!(No symbol) [0x7ff7b7943482]
+	chromedriver!(No symbol) [0x7ff7b78e9298]
+	chromedriver!(No symbol) [0x7ff7b78ea183]
+	chromedriver!GetHandleVerifier [0x7ff7b7e3de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff7b7e38588+313348]
+	chromedriver!GetHandleVerifier [0x7ff7b7e59d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff7b7b56785+31545]
+	chromedriver!GetHandleVerifier [0x7ff7b7b5facc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff7b7b43634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff7b7b437e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff7b7b27e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ff818d5e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff81a90c48c+2c]
+</status>
+</test>
+<status status="FAIL" start="2026-03-31T17:25:42.692156" elapsed="20.618121"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="File upload download" id="s1" pass="0" fail="2" skip="0">File upload download</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-03-31T17:25:56.820221" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7b7e129c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff7b7b3a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff7b789d916]
+	chromedriver!(No symbol) [0x7ff7b78e8313]
+	chromedriver!(No symbol) [0x7ff7b791fe92]
+	chromedriver!(No symbol) [0x7ff7b791a011]
+	chromedriver!(No symbol) [0x7ff7b79192c3]
+	chromedriver!(No symbol) [0x7ff7b7866565]
+	chromedriver!GetHandleVerifier [0x7ff7b7e3de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff7b7e38588+313348]
+	chromedriver!GetHandleVerifier [0x7ff7b7e59d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff7b7b56785+31545]
+	chromedriver!GetHandleVerifier [0x7ff7b7b5facc+3a88c]
+	chromedriver!(No symbol) [0x7ff7b786532a]
+	chromedriver!GetHandleVerifier [0x7ff7b7f94b48+46f908]
+	KERNEL32!BaseThreadInitThunk [0x7ff818d5e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff81a90c48c+2c]
+</msg>
+<msg time="2026-03-31T17:26:03.302062" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.165)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7b7e129c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff7b7b3a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff7b789db2d]
+	chromedriver!(No symbol) [0x7ff7b7874322]
+	chromedriver!(No symbol) [0x7ff7b7926e86]
+	chromedriver!(No symbol) [0x7ff7b7943482]
+	chromedriver!(No symbol) [0x7ff7b78e9298]
+	chromedriver!(No symbol) [0x7ff7b78ea183]
+	chromedriver!GetHandleVerifier [0x7ff7b7e3de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff7b7e38588+313348]
+	chromedriver!GetHandleVerifier [0x7ff7b7e59d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff7b7b56785+31545]
+	chromedriver!GetHandleVerifier [0x7ff7b7b5facc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff7b7b43634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff7b7b437e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff7b7b27e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ff818d5e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff81a90c48c+2c]
+</msg>
+</errors>
+</robot>

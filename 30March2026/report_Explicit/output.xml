@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.3 on win32)" generated="2026-03-30T14:41:17.038864" rpa="false" schemaversion="5">
+<suite id="s1" name="Explicit wait" source="C:\PyCharm\30March2026\Explicit_wait.robot">
+<test id="s1-t1" name="Explicit wait example" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-03-30T14:41:17.345702" level="INFO">Opening browser 'chrome' to base url 'https://practicetestautomation.com/practice-test-login/'.</msg>
+<arg>${url}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-03-30T14:41:17.345029" elapsed="5.153615"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>id=username</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-03-30T14:41:22.499310" elapsed="0.035767"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-03-30T14:41:22.535697" level="INFO">Typing text 'student' into text field 'id=username'.</msg>
+<arg>id=username</arg>
+<arg>student</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-30T14:41:22.535365" elapsed="0.107740"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>id=password</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-03-30T14:41:22.643572" elapsed="0.021672"/>
+</kw>
+<kw name="Input Password" owner="SeleniumLibrary">
+<msg time="2026-03-30T14:41:22.665970" level="INFO">Typing password into text field 'id=password'.</msg>
+<msg time="2026-03-30T14:41:22.708225" level="INFO">Temporally setting log level to: NONE</msg>
+<arg>id=password</arg>
+<arg>Password123</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-30T14:41:22.665626" elapsed="0.105239"/>
+</kw>
+<kw name="Wait Until Element Is Enabled" owner="SeleniumLibrary">
+<arg>id=submit</arg>
+<doc>Waits until the element ``locator`` is enabled.</doc>
+<status status="PASS" start="2026-03-30T14:41:22.771195" elapsed="0.020210"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-03-30T14:41:22.792326" level="INFO">Clicking element 'id=submit'.</msg>
+<arg>id=submit</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-30T14:41:22.792004" elapsed="1.112953"/>
+</kw>
+<kw name="Wait Until Location Contains" owner="SeleniumLibrary">
+<arg>logged-in-successfully</arg>
+<doc>Waits until the current URL contains ``expected``.</doc>
+<status status="PASS" start="2026-03-30T14:41:23.905628" elapsed="0.006406"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-03-30T14:41:23.912391" elapsed="2.192557"/>
+</kw>
+<status status="PASS" start="2026-03-30T14:41:17.342068" elapsed="8.763416"/>
+</test>
+<status status="PASS" start="2026-03-30T14:41:17.040421" elapsed="9.065969"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Explicit wait" id="s1" pass="1" fail="0" skip="0">Explicit wait</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

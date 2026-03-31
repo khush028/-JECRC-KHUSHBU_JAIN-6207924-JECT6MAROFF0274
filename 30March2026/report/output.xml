@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.3 on win32)" generated="2026-03-30T10:37:43.045208" rpa="false" schemaversion="5">
+<suite id="s1" name="Window Handles" source="C:\PyCharm\30March2026\window_handles.robot">
+<test id="s1-t1" name="Handling windows" line="8">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-03-30T10:37:43.194538" level="INFO">Opening browser 'chrome' to base url 'https://the-internet.herokuapp.com/windows'.</msg>
+<arg>${url}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-03-30T10:37:43.194145" elapsed="6.041747"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-03-30T10:37:49.236298" elapsed="0.031386"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-30T10:37:52.269315" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-30T10:37:49.267990" elapsed="3.001651"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-03-30T10:37:52.271592" level="INFO">Clicking element 'xpath= //a[@href="/windows/new"]'.</msg>
+<arg>xpath= //a[@href="/windows/new"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-30T10:37:52.270727" elapsed="0.141179"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-30T10:37:54.413624" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-30T10:37:52.412423" elapsed="2.001402"/>
+</kw>
+<kw name="Get Window Handles" owner="SeleniumLibrary">
+<msg time="2026-03-30T10:37:54.435853" level="INFO">@{windows} = [ D387403B9AAAEF32EEE197469EFEFE19 | 2D8C28DCD8B584F8B77279B38C1822CA ]</msg>
+<var>@{windows}</var>
+<doc>Returns all child window handles of the selected browser as a list.</doc>
+<status status="PASS" start="2026-03-30T10:37:54.415253" elapsed="0.020653"/>
+</kw>
+<kw name="Get Window Titles" owner="SeleniumLibrary">
+<msg time="2026-03-30T10:37:54.508314" level="INFO">Altogether 2 items.
+1: The Internet
+2: New Window</msg>
+<msg time="2026-03-30T10:37:54.508506" level="INFO">@{titles} = [ The Internet | New Window ]</msg>
+<var>@{titles}</var>
+<doc>Returns and logs titles of all windows of the selected browser.</doc>
+<status status="PASS" start="2026-03-30T10:37:54.436268" elapsed="0.072274"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${titles}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-03-30T10:37:54.508852" elapsed="0.000491"/>
+</kw>
+<kw name="Switch Window" owner="SeleniumLibrary">
+<arg>New</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="PASS" start="2026-03-30T10:37:54.509592" elapsed="0.014595"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2026-03-30T10:37:54.553055" level="INFO">Current page contains text 'New Window'.</msg>
+<arg>New Window</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2026-03-30T10:37:54.524735" elapsed="0.028501"/>
+</kw>
+<kw name="Page Should Contain Element" owner="SeleniumLibrary">
+<msg time="2026-03-30T10:37:54.566252" level="INFO">Current page contains element 'xpath=//h3[text()="New Window"]'.</msg>
+<arg>xpath=//h3[text()="New Window"]</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<status status="PASS" start="2026-03-30T10:37:54.553893" elapsed="0.012474"/>
+</kw>
+<kw name="Switch Window" owner="SeleniumLibrary">
+<arg>${windows}[0]</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="PASS" start="2026-03-30T10:37:54.566834" elapsed="0.017687"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-30T10:37:57.585915" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-30T10:37:54.584918" elapsed="3.001110"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-03-30T10:37:57.586541" elapsed="2.203551"/>
+</kw>
+<status status="PASS" start="2026-03-30T10:37:43.193136" elapsed="16.597604"/>
+</test>
+<status status="PASS" start="2026-03-30T10:37:43.046306" elapsed="16.745466"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Window Handles" id="s1" pass="1" fail="0" skip="0">Window Handles</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

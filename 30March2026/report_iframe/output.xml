@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.3 on win32)" generated="2026-03-30T11:08:26.616553" rpa="false" schemaversion="5">
+<suite id="s1" name="Iframe" source="C:\PyCharm\30March2026\iframe.robot">
+<test id="s1-t1" name="Handling single iframe" line="8">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-03-30T11:08:26.770303" level="INFO">Opening browser 'chrome' to base url 'https://demo.automationtesting.in/Frames.html'.</msg>
+<arg>${url}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-03-30T11:08:26.770069" elapsed="4.064938"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-03-30T11:08:30.835577" elapsed="0.045911"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-30T11:08:33.882856" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-30T11:08:30.881877" elapsed="3.001357"/>
+</kw>
+<kw name="Select Frame" owner="SeleniumLibrary">
+<msg time="2026-03-30T11:08:33.884876" level="INFO">Selecting frame 'id=singleframe'.</msg>
+<arg>id=singleframe</arg>
+<doc>Sets frame identified by ``locator`` as the current frame.</doc>
+<status status="PASS" start="2026-03-30T11:08:33.884190" elapsed="0.037818"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-03-30T11:08:33.922531" level="INFO">Typing text 'NIK' into text field 'xpath=//input[@type="text"]'.</msg>
+<arg>xpath=//input[@type="text"]</arg>
+<arg>NIK</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-30T11:08:33.922324" elapsed="0.120209"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-30T11:08:37.044625" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-30T11:08:34.043056" elapsed="3.001785"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-03-30T11:08:37.045615" elapsed="2.152761"/>
+</kw>
+<status status="PASS" start="2026-03-30T11:08:26.769081" elapsed="12.429947"/>
+</test>
+<status status="PASS" start="2026-03-30T11:08:26.617722" elapsed="12.582373"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Iframe" id="s1" pass="1" fail="0" skip="0">Iframe</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

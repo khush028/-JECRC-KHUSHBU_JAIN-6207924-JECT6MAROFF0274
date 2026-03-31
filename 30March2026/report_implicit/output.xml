@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.3 on win32)" generated="2026-03-30T12:35:26.147590" rpa="false" schemaversion="5">
+<suite id="s1" name="Implicit Wait" source="C:\PyCharm\30March2026\implicit_wait.robot">
+<test id="s1-t1" name="implicit wait" line="13">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-03-30T12:35:26.350402" level="INFO">Opening browser 'chrome' to base url 'https://the-internet.herokuapp.com/'.</msg>
+<arg>${url}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-03-30T12:35:26.350100" elapsed="6.272793"/>
+</kw>
+<kw name="Get Selenium Implicit Wait" owner="SeleniumLibrary">
+<msg time="2026-03-30T12:35:32.624137" level="INFO">${before} = 0 seconds</msg>
+<var>${before}</var>
+<doc>Gets the implicit wait value used by Selenium.</doc>
+<status status="PASS" start="2026-03-30T12:35:32.623838" elapsed="0.000338"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${before}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-03-30T12:35:32.624434" elapsed="0.000394"/>
+</kw>
+<kw name="Set Selenium Implicit Wait" owner="SeleniumLibrary">
+<arg>5s</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="PASS" start="2026-03-30T12:35:32.624986" elapsed="0.003986"/>
+</kw>
+<kw name="Get Selenium Implicit Wait" owner="SeleniumLibrary">
+<msg time="2026-03-30T12:35:32.629913" level="INFO">${after} = 5 seconds</msg>
+<var>${after}</var>
+<doc>Gets the implicit wait value used by Selenium.</doc>
+<status status="PASS" start="2026-03-30T12:35:32.629460" elapsed="0.000507"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${after}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-03-30T12:35:32.630231" elapsed="0.000326"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-03-30T12:35:32.630718" elapsed="2.203014"/>
+</kw>
+<status status="PASS" start="2026-03-30T12:35:26.348535" elapsed="8.485781"/>
+</test>
+<status status="PASS" start="2026-03-30T12:35:26.149185" elapsed="8.686263"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Implicit Wait" id="s1" pass="1" fail="0" skip="0">Implicit Wait</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

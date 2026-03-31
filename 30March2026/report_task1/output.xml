@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.3 on win32)" generated="2026-03-30T10:55:55.191993" rpa="false" schemaversion="5">
+<suite id="s1" name="Task1" source="C:\PyCharm\30March2026\Task1.robot">
+<test id="s1-t1" name="Handling windows" line="16">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-03-30T10:55:55.341433" level="INFO">Opening browser 'chrome' to base url 'https://testautomationpractice.blogspot.com/'.</msg>
+<arg>${url}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-03-30T10:55:55.341141" elapsed="7.243654"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-03-30T10:56:02.585514" elapsed="0.024541"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-30T10:56:05.611607" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-30T10:56:02.610538" elapsed="3.001293"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-03-30T10:56:05.613090" level="INFO">Clicking element 'xpath= //button[@id="PopUp"]'.</msg>
+<arg>xpath= //button[@id="PopUp"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-30T10:56:05.612552" elapsed="0.183868"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-30T10:56:07.800170" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-30T10:56:05.796795" elapsed="2.003757"/>
+</kw>
+<kw name="Get Window Handles" owner="SeleniumLibrary">
+<msg time="2026-03-30T10:56:07.819618" level="INFO">@{windows} = [ EE64522676D86A38E29324CC4173845D | 25C89D6207438AC13D6195E1D99AF6D0 | 5AF5E1E1EA5E738806817D7E2F692C74 ]</msg>
+<var>@{windows}</var>
+<doc>Returns all child window handles of the selected browser as a list.</doc>
+<status status="PASS" start="2026-03-30T10:56:07.802738" elapsed="0.016932"/>
+</kw>
+<kw name="Get Window Titles" owner="SeleniumLibrary">
+<msg time="2026-03-30T10:56:07.918295" level="INFO">Altogether 3 items.
+1: Automation Testing Practice
+2: Selenium
+3: Fast and reliable end-to-end testing for modern web apps | Playwright</msg>
+<msg time="2026-03-30T10:56:07.918501" level="INFO">@{titles} = [ Automation Testing Practice | Selenium | Fast and reliable end-to-end testing for modern web apps | Playwright ]</msg>
+<var>@{titles}</var>
+<doc>Returns and logs titles of all windows of the selected browser.</doc>
+<status status="PASS" start="2026-03-30T10:56:07.820023" elapsed="0.098521"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${titles}[1]</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-03-30T10:56:07.918987" elapsed="0.000849"/>
+</kw>
+<kw name="Switch Window" owner="SeleniumLibrary">
+<arg>New</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="PASS" start="2026-03-30T10:56:07.920224" elapsed="0.011392"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-30T10:56:12.933224" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-30T10:56:07.932178" elapsed="5.001221"/>
+</kw>
+<kw name="Switch Window" owner="SeleniumLibrary">
+<arg>${windows}[0]</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="PASS" start="2026-03-30T10:56:12.934190" elapsed="0.016031"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${titles}[0]</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-03-30T10:56:12.951161" elapsed="0.001974"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2026-03-30T10:56:12.974692" level="INFO">Current page contains text 'Automation Testing Practice'.</msg>
+<arg>Automation Testing Practice</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2026-03-30T10:56:12.954594" elapsed="0.020222"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-30T10:56:15.976232" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-30T10:56:12.975323" elapsed="3.001103"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-03-30T10:56:15.977095" elapsed="2.185523"/>
+</kw>
+<status status="PASS" start="2026-03-30T10:55:55.340031" elapsed="22.823159"/>
+</test>
+<status status="PASS" start="2026-03-30T10:55:55.193077" elapsed="22.971544"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Task1" id="s1" pass="1" fail="0" skip="0">Task1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
