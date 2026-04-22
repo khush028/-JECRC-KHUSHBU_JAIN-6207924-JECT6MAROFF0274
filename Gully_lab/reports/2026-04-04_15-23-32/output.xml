@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.13.9 on win32)" generated="2026-04-04T15:23:32.688894" rpa="false" schemaversion="5">
+<suite id="s1" name="Test Login Page" source="C:\Users\DELL\Desktop\Task_Framework\tests\functional\test_login_page.robot">
+<test id="s1-t1" name="TC01 Navigate Accounts" line="10">
+<kw name="Open Application" owner="common_resources" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-04-04T15:23:32.864855" level="INFO">Opening browser 'chrome' to base url 'https://gullylabs.com/'.</msg>
+<arg>${url}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-04-04T15:23:32.864625" elapsed="6.807207"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-04-04T15:23:39.672798" elapsed="0.085450"/>
+</kw>
+<arg>https://gullylabs.com/</arg>
+<doc>Opens the application</doc>
+<status status="PASS" start="2026-04-04T15:23:32.864079" elapsed="6.894910"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-04-04T15:23:39.761910" level="INFO">Clicking element 'xpath=//i[@class="g-user"]'.</msg>
+<arg>${account_link}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-04-04T15:23:39.760621" elapsed="3.547119"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-04-04T15:23:43.311220" level="INFO">Clicking on the account link</msg>
+<arg>Clicking on the account link</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-04T15:23:43.309477" elapsed="0.002193"/>
+</kw>
+<kw name="Close Application" owner="common_resources" type="TEARDOWN">
+<kw name="Close All Browsers" owner="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2026-04-04T15:23:43.314407" elapsed="6.908629"/>
+</kw>
+<status status="PASS" start="2026-04-04T15:23:43.313046" elapsed="6.910272"/>
+</kw>
+<doc>this navigates to the home page</doc>
+<status status="PASS" start="2026-04-04T15:23:32.863222" elapsed="17.360724"/>
+</test>
+<test id="s1-t2" name="TC02 Login User" line="15">
+<kw name="Open Application" owner="common_resources" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-04-04T15:23:50.228797" level="INFO">Opening browser 'chrome' to base url 'https://gullylabs.com/'.</msg>
+<arg>${url}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-04-04T15:23:50.228200" elapsed="6.925926"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-04-04T15:23:57.154602" elapsed="0.098174"/>
+</kw>
+<arg>https://gullylabs.com/</arg>
+<doc>Opens the application</doc>
+<status status="PASS" start="2026-04-04T15:23:50.227452" elapsed="7.025619"/>
+</kw>
+<kw name="Log In The Application" owner="login_page">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-04-04T15:23:57.256149" level="INFO">Clicking element 'xpath=//i[@class="g-user"]'.</msg>
+<arg>${account_link}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-04-04T15:23:57.254931" elapsed="3.391895"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-04-04T15:24:00.648350" level="INFO">Clicking on the account link</msg>
+<arg>Clicking on the account link</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-04T15:24:00.647521" elapsed="0.000943"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-04-04T15:24:00.649255" level="INFO">Typing text 'mpallavi1803@gmail.com' into text field 'xpath=(//input[@type="email"])[2]'.</msg>
+<arg>${email_label}</arg>
+<arg>${email}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-04-04T15:24:00.648730" elapsed="0.302945"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-04-04T15:24:00.953026" level="INFO">Entering email</msg>
+<arg>Entering email</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-04T15:24:00.952180" elapsed="0.001031"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-04-04T15:24:00.954178" level="INFO">Typing text '1018shushi8101' into text field 'xpath=//input[@type="password"]'.</msg>
+<arg>${password_label}</arg>
+<arg>${pwd}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-04-04T15:24:00.953574" elapsed="0.190302"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-04-04T15:24:01.145431" level="INFO">Entering password</msg>
+<arg>Entering password</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-04T15:24:01.144420" elapsed="0.001119"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-04-04T15:24:01.148238" level="INFO">Clicking element 'xpath=(//button[@type="submit"])[3]'.</msg>
+<arg>${sign_in_btn}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-04-04T15:24:01.147646" elapsed="3.648285"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-04-04T15:24:04.797175" level="INFO">SIGNUP button</msg>
+<arg>SIGNUP button</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-04T15:24:04.796603" elapsed="0.000644"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-04-04T15:24:14.798638" level="INFO">Slept 10 seconds.</msg>
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-04-04T15:24:04.797402" elapsed="10.001836"/>
+</kw>
+<kw name="Page Should Contain Element" owner="SeleniumLibrary">
+<msg time="2026-04-04T15:24:15.078559" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-04-04T15:24:15.079020" level="FAIL">Page should have contained element 'Account' but did not.</msg>
+<arg>Account</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<status status="FAIL" start="2026-04-04T15:24:14.800317" elapsed="0.290360">Page should have contained element 'Account' but did not.</status>
+</kw>
+<kw name="Page Should Contain Element" owner="SeleniumLibrary">
+<arg>Log out</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<status status="NOT RUN" start="2026-04-04T15:24:15.091423" elapsed="0.000130"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2026-04-04T15:24:15.091771" elapsed="0.000036"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" start="2026-04-04T15:24:15.091934" elapsed="0.000027"/>
+</kw>
+<arg>mpallavi1803@gmail.com</arg>
+<arg>1018shushi8101</arg>
+<doc>this logins in the login page</doc>
+<status status="FAIL" start="2026-04-04T15:23:57.254136" elapsed="17.838314">Page should have contained element 'Account' but did not.</status>
+</kw>
+<kw name="Close Application" owner="common_resources" type="TEARDOWN">
+<kw name="Close All Browsers" owner="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2026-04-04T15:24:15.095336" elapsed="7.065460"/>
+</kw>
+<status status="PASS" start="2026-04-04T15:24:15.094738" elapsed="7.066261"/>
+</kw>
+<doc>check if the user is able to login</doc>
+<tag>functional</tag>
+<status status="FAIL" start="2026-04-04T15:23:50.226283" elapsed="31.934986">Page should have contained element 'Account' but did not.</status>
+</test>
+<status status="FAIL" start="2026-04-04T15:23:32.692818" elapsed="49.469776"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">functional</stat>
+</tag>
+<suite>
+<stat name="Test Login Page" id="s1" pass="1" fail="1" skip="0">Test Login Page</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

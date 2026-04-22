@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.13.9 on win32)" generated="2026-04-04T15:13:09.801284" rpa="false" schemaversion="5">
+<suite id="s1" name="Test Login Page" source="C:\Users\DELL\Desktop\Task_Framework\tests\functional\test_login_page.robot">
+<test id="s1-t1" name="TC01 Navigate Accounts" line="10">
+<kw name="Open Application" owner="common_resources" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-04-04T15:13:10.067630" level="INFO">Opening browser 'chrome' to base url 'https://gullylabs.com/'.</msg>
+<arg>${url}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-04-04T15:13:10.067424" elapsed="8.523132"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-04-04T15:13:18.677664" elapsed="0.289672"/>
+</kw>
+<arg>https://gullylabs.com/</arg>
+<doc>Opens the application</doc>
+<status status="PASS" start="2026-04-04T15:13:10.066844" elapsed="8.900738"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-04-04T15:13:18.972875" level="INFO">Clicking element 'xpath=//i[@class="g-user"]'.</msg>
+<arg>${account_link}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-04-04T15:13:18.969741" elapsed="3.563256"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-04-04T15:13:22.534302" level="INFO">Clicking on the account link</msg>
+<arg>Clicking on the account link</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-04T15:13:22.533682" elapsed="0.000699"/>
+</kw>
+<kw name="Close Application" owner="common_resources" type="TEARDOWN">
+<kw name="Close All Browsers" owner="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2026-04-04T15:13:22.535721" elapsed="6.514434"/>
+</kw>
+<status status="PASS" start="2026-04-04T15:13:22.535179" elapsed="6.515271"/>
+</kw>
+<doc>this navigates to the home page</doc>
+<status status="PASS" start="2026-04-04T15:13:10.065911" elapsed="18.985137"/>
+</test>
+<test id="s1-t2" name="TC02 Login User" line="15">
+<kw name="Open Application" owner="common_resources" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-04-04T15:13:29.058044" level="INFO">Opening browser 'chrome' to base url 'https://gullylabs.com/'.</msg>
+<arg>${url}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-04-04T15:13:29.057516" elapsed="5.697652"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-04-04T15:13:34.755451" elapsed="0.075103"/>
+</kw>
+<arg>https://gullylabs.com/</arg>
+<doc>Opens the application</doc>
+<status status="PASS" start="2026-04-04T15:13:29.056799" elapsed="5.773993"/>
+</kw>
+<kw name="Log In The Application" owner="login_page">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-04-04T15:13:34.832554" level="INFO">Typing text 'mpallavi1803@gmail.com' into text field 'xpath=(//input[@type="email"])[2]'.</msg>
+<msg time="2026-04-04T15:13:35.312558" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-04-04T15:13:35.313126" level="FAIL">Element with locator 'xpath=(//input[@type="email"])[2]' not found.</msg>
+<arg>${email_label}</arg>
+<arg>${email}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="FAIL" start="2026-04-04T15:13:34.832183" elapsed="0.490027">Element with locator 'xpath=(//input[@type="email"])[2]' not found.</status>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<arg>Entering email</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2026-04-04T15:13:35.322801" elapsed="0.000176"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>${password_label}</arg>
+<arg>${pwd}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-04-04T15:13:35.323248" elapsed="0.000055"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<arg>Entering password</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2026-04-04T15:13:35.323469" elapsed="0.000035"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>${sign_in_btn}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-04-04T15:13:35.323656" elapsed="0.000023"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<arg>SIGNUP button</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2026-04-04T15:13:35.323775" elapsed="0.000026"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2026-04-04T15:13:35.323912" elapsed="0.000027"/>
+</kw>
+<kw name="Page Should Contain Element" owner="SeleniumLibrary">
+<arg>Account</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<status status="NOT RUN" start="2026-04-04T15:13:35.324058" elapsed="0.000018"/>
+</kw>
+<kw name="Page Should Contain Element" owner="SeleniumLibrary">
+<arg>Log out</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<status status="NOT RUN" start="2026-04-04T15:13:35.324403" elapsed="0.000086"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2026-04-04T15:13:35.324668" elapsed="0.000038"/>
+</kw>
+<arg>mpallavi1803@gmail.com</arg>
+<arg>1018shushi8101</arg>
+<doc>this logins in the login page</doc>
+<status status="FAIL" start="2026-04-04T15:13:34.831654" elapsed="0.493536">Element with locator 'xpath=(//input[@type="email"])[2]' not found.</status>
+</kw>
+<kw name="Close Application" owner="common_resources" type="TEARDOWN">
+<kw name="Close All Browsers" owner="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2026-04-04T15:13:35.328677" elapsed="6.433431"/>
+</kw>
+<status status="PASS" start="2026-04-04T15:13:35.327823" elapsed="6.434476"/>
+</kw>
+<doc>check if the user is able to login</doc>
+<tag>functional</tag>
+<status status="FAIL" start="2026-04-04T15:13:29.055387" elapsed="12.707394">Element with locator 'xpath=(//input[@type="email"])[2]' not found.</status>
+</test>
+<status status="FAIL" start="2026-04-04T15:13:09.803148" elapsed="31.961589"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">functional</stat>
+</tag>
+<suite>
+<stat name="Test Login Page" id="s1" pass="1" fail="1" skip="0">Test Login Page</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
