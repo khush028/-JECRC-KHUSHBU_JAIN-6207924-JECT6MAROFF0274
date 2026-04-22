@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.13.9 on win32)" generated="2026-04-04T15:15:39.383400" rpa="false" schemaversion="5">
+<suite id="s1" name="Test Login Page" source="C:\Users\DELL\Desktop\Task_Framework\tests\functional\test_login_page.robot">
+<test id="s1-t1" name="TC02 Login User" line="10">
+<kw name="Open Application" owner="common_resources" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-04-04T15:15:39.667545" level="INFO">Opening browser 'chrome' to base url 'https://gullylabs.com/'.</msg>
+<arg>${url}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-04-04T15:15:39.667347" elapsed="7.405281"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-04-04T15:15:47.092470" elapsed="0.203105"/>
+</kw>
+<arg>https://gullylabs.com/</arg>
+<doc>Opens the application</doc>
+<status status="PASS" start="2026-04-04T15:15:39.666158" elapsed="7.629952"/>
+</kw>
+<kw name="Log In The Application" owner="login_page">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-04-04T15:15:47.300742" level="INFO">Typing text 'mpallavi1803@gmail.com' into text field 'xpath=(//input[@type="email"])[2]'.</msg>
+<msg time="2026-04-04T15:15:47.851976" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-04-04T15:15:47.852491" level="FAIL">Element with locator 'xpath=(//input[@type="email"])[2]' not found.</msg>
+<arg>${email_label}</arg>
+<arg>${email}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="FAIL" start="2026-04-04T15:15:47.299456" elapsed="0.565447">Element with locator 'xpath=(//input[@type="email"])[2]' not found.</status>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<arg>Entering email</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2026-04-04T15:15:47.865302" elapsed="0.000047"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>${password_label}</arg>
+<arg>${pwd}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-04-04T15:15:47.865456" elapsed="0.000024"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<arg>Entering password</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2026-04-04T15:15:47.865564" elapsed="0.000025"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>${sign_in_btn}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-04-04T15:15:47.865710" elapsed="0.000026"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<arg>SIGNUP button</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2026-04-04T15:15:47.865832" elapsed="0.000024"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2026-04-04T15:15:47.865939" elapsed="0.000027"/>
+</kw>
+<kw name="Page Should Contain Element" owner="SeleniumLibrary">
+<arg>Account</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<status status="NOT RUN" start="2026-04-04T15:15:47.866065" elapsed="0.000027"/>
+</kw>
+<kw name="Page Should Contain Element" owner="SeleniumLibrary">
+<arg>Log out</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<status status="NOT RUN" start="2026-04-04T15:15:47.866190" elapsed="0.000026"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2026-04-04T15:15:47.866307" elapsed="0.000026"/>
+</kw>
+<arg>mpallavi1803@gmail.com</arg>
+<arg>1018shushi8101</arg>
+<doc>this logins in the login page</doc>
+<status status="FAIL" start="2026-04-04T15:15:47.297638" elapsed="0.568889">Element with locator 'xpath=(//input[@type="email"])[2]' not found.</status>
+</kw>
+<kw name="Close Application" owner="common_resources" type="TEARDOWN">
+<kw name="Close All Browsers" owner="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2026-04-04T15:15:47.868393" elapsed="6.578796"/>
+</kw>
+<status status="PASS" start="2026-04-04T15:15:47.867258" elapsed="6.580375"/>
+</kw>
+<doc>check if the user is able to login</doc>
+<tag>functional</tag>
+<status status="FAIL" start="2026-04-04T15:15:39.665368" elapsed="14.783107">Element with locator 'xpath=(//input[@type="email"])[2]' not found.</status>
+</test>
+<status status="FAIL" start="2026-04-04T15:15:39.386786" elapsed="15.067315"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">functional</stat>
+</tag>
+<suite>
+<stat name="Test Login Page" id="s1" pass="0" fail="1" skip="0">Test Login Page</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.4 on win32)" generated="2026-04-10T15:30:36.379632" rpa="false" schemaversion="5">
+<suite id="s1" name="Test Login Page" source="C:\PyCharm\Robot Frame Work\Task_Framework\Task_Framework\tests\functional\test_login_page.robot">
+<kw name="Load Environment" owner="common_resources" type="SETUP">
+<kw name="Load Env">
+<msg time="2026-04-10T15:30:36.740555" level="FAIL">No keyword with name 'Load Env' found.</msg>
+<arg>${ENV}</arg>
+<status status="FAIL" start="2026-04-10T15:30:36.740490" elapsed="0.000127">No keyword with name 'Load Env' found.</status>
+</kw>
+<kw name="Get Env">
+<var>${url}</var>
+<arg>baseurl</arg>
+<status status="NOT RUN" start="2026-04-10T15:30:36.740795" elapsed="0.000033"/>
+</kw>
+<kw name="Get Env">
+<var>${email}</var>
+<arg>user_email</arg>
+<status status="NOT RUN" start="2026-04-10T15:30:36.740950" elapsed="0.000048"/>
+</kw>
+<kw name="Get Env">
+<var>${pwd}</var>
+<arg>user_password</arg>
+<status status="NOT RUN" start="2026-04-10T15:30:36.741101" elapsed="0.000022"/>
+</kw>
+<kw name="Set Global Variable" owner="BuiltIn">
+<arg>${BASE_URL}</arg>
+<arg>${url}</arg>
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<status status="NOT RUN" start="2026-04-10T15:30:36.741261" elapsed="0.000126"/>
+</kw>
+<kw name="Set Global Variable" owner="BuiltIn">
+<arg>${USER_EMAIL}</arg>
+<arg>${email}</arg>
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<status status="NOT RUN" start="2026-04-10T15:30:36.741566" elapsed="0.000032"/>
+</kw>
+<kw name="Set Global Variable" owner="BuiltIn">
+<arg>${USER_PWD}</arg>
+<arg>${pwd}</arg>
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<status status="NOT RUN" start="2026-04-10T15:30:36.741691" elapsed="0.000023"/>
+</kw>
+<status status="FAIL" start="2026-04-10T15:30:36.738440" elapsed="0.003509">No keyword with name 'Load Env' found.</status>
+</kw>
+<test id="s1-t1" name="TC02 Login User" line="11">
+<doc>check if the user is able to login</doc>
+<tag>functional</tag>
+<status status="FAIL" start="2026-04-10T15:30:36.742102" elapsed="0.001030">Parent suite setup failed:
+No keyword with name 'Load Env' found.</status>
+</test>
+<status status="FAIL" start="2026-04-10T15:30:36.381091" elapsed="0.369433">Suite setup failed:
+No keyword with name 'Load Env' found.</status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">functional</stat>
+</tag>
+<suite>
+<stat name="Test Login Page" id="s1" pass="0" fail="1" skip="0">Test Login Page</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-04-10T15:30:36.726354" level="ERROR">Error in file 'C:\PyCharm\Robot Frame Work\Task_Framework\Task_Framework\resources\common_resources.robot' on line 3: Library '..\..\config\env_loader.py' does not exist.</msg>
+<msg time="2026-04-10T15:30:36.732048" level="ERROR">Error in file 'C:\PyCharm\Robot Frame Work\Task_Framework\Task_Framework\resources\common_resources.robot' on line 4: Importing library 'env_loader' failed: ModuleNotFoundError: No module named 'env_loader'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\PyCharm\Robot Frame Work\Task_Framework\Task_Framework\.venv\Scripts\robot.exe
+  C:\Users\hp\AppData\Local\Programs\Python\Python314\python314.zip
+  C:\Users\hp\AppData\Local\Programs\Python\Python314\DLLs
+  C:\Users\hp\AppData\Local\Programs\Python\Python314\Lib
+  C:\Users\hp\AppData\Local\Programs\Python\Python314
+  C:\PyCharm\Robot Frame Work\Task_Framework\Task_Framework\.venv
+  C:\PyCharm\Robot Frame Work\Task_Framework\Task_Framework\.venv\Lib\site-packages</msg>
+</errors>
+</robot>

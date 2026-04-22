@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.13.9 on win32)" generated="2026-04-04T15:18:15.575499" rpa="false" schemaversion="5">
+<suite id="s1" name="Test Account Page" source="C:\Users\DELL\Desktop\Task_Framework\tests\functional\test_account_page.robot">
+<test id="s1-t1" name="TC01 Navigate Accounts" line="9">
+<kw name="Open Application" owner="common_resources" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-04-04T15:18:15.883057" level="INFO">Opening browser 'chrome' to base url 'https://gullylabs.com/'.</msg>
+<arg>${url}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-04-04T15:18:15.882653" elapsed="6.687236"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-04-04T15:18:22.570842" elapsed="0.109932"/>
+</kw>
+<arg>https://gullylabs.com/</arg>
+<doc>Opens the application</doc>
+<status status="PASS" start="2026-04-04T15:18:15.881858" elapsed="6.800055"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-04-04T15:18:22.684348" level="INFO">Clicking element 'xpath=//i[@class="g-user"]'.</msg>
+<arg>${account_link}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-04-04T15:18:22.683141" elapsed="4.562036"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-04-04T15:18:27.247746" level="INFO">Clicking on the account link</msg>
+<arg>Clicking on the account link</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-04T15:18:27.246867" elapsed="0.001009"/>
+</kw>
+<kw name="Close Application" owner="common_resources" type="TEARDOWN">
+<kw name="Close All Browsers" owner="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2026-04-04T15:18:27.250214" elapsed="6.798617"/>
+</kw>
+<status status="PASS" start="2026-04-04T15:18:27.249195" elapsed="6.800089"/>
+</kw>
+<doc>this navigates to the home page</doc>
+<status status="PASS" start="2026-04-04T15:18:15.881003" elapsed="18.168905"/>
+</test>
+<status status="PASS" start="2026-04-04T15:18:15.579173" elapsed="18.473789"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Test Account Page" id="s1" pass="1" fail="0" skip="0">Test Account Page</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

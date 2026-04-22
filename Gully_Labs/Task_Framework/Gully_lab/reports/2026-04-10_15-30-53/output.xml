@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.4 on win32)" generated="2026-04-10T15:30:53.734956" rpa="false" schemaversion="5">
+<suite id="s1" name="Test Login Page" source="C:\PyCharm\Robot Frame Work\Task_Framework\Task_Framework\tests\functional\test_login_page.robot">
+<kw name="Load Environment" owner="common_resources" type="SETUP">
+<kw name="Load Env" owner="env_loader">
+<arg>${ENV}</arg>
+<status status="PASS" start="2026-04-10T15:30:53.914044" elapsed="0.000975"/>
+</kw>
+<kw name="Get Env" owner="env_loader">
+<msg time="2026-04-10T15:30:53.915248" level="INFO">${url} = https://gullylabs.com/</msg>
+<var>${url}</var>
+<arg>baseurl</arg>
+<status status="PASS" start="2026-04-10T15:30:53.915137" elapsed="0.000136"/>
+</kw>
+<kw name="Get Env" owner="env_loader">
+<msg time="2026-04-10T15:30:53.915435" level="INFO">${email} = khushbu@gmail.com</msg>
+<var>${email}</var>
+<arg>user_email</arg>
+<status status="PASS" start="2026-04-10T15:30:53.915352" elapsed="0.000103"/>
+</kw>
+<kw name="Get Env" owner="env_loader">
+<msg time="2026-04-10T15:30:53.915592" level="INFO">${pwd} = khushbu@1234</msg>
+<var>${pwd}</var>
+<arg>user_password</arg>
+<status status="PASS" start="2026-04-10T15:30:53.915520" elapsed="0.000088"/>
+</kw>
+<kw name="Set Global Variable" owner="BuiltIn">
+<msg time="2026-04-10T15:30:53.916254" level="INFO">${BASE_URL} = https://gullylabs.com/</msg>
+<arg>${BASE_URL}</arg>
+<arg>${url}</arg>
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<status status="PASS" start="2026-04-10T15:30:53.915678" elapsed="0.000614"/>
+</kw>
+<kw name="Set Global Variable" owner="BuiltIn">
+<msg time="2026-04-10T15:30:53.916915" level="INFO">${USER_EMAIL} = khushbu@gmail.com</msg>
+<arg>${USER_EMAIL}</arg>
+<arg>${email}</arg>
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<status status="PASS" start="2026-04-10T15:30:53.916377" elapsed="0.000570"/>
+</kw>
+<kw name="Set Global Variable" owner="BuiltIn">
+<msg time="2026-04-10T15:30:53.917467" level="INFO">${USER_PWD} = khushbu@1234</msg>
+<arg>${USER_PWD}</arg>
+<arg>${pwd}</arg>
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<status status="PASS" start="2026-04-10T15:30:53.917023" elapsed="0.000473"/>
+</kw>
+<status status="PASS" start="2026-04-10T15:30:53.913594" elapsed="0.003950"/>
+</kw>
+<test id="s1-t1" name="TC02 Login User" line="11">
+<kw name="Open Application" owner="common_resources" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-04-10T15:30:53.918264" level="INFO">Opening browser 'chrome' to base url 'https://gullylabs.com/'.</msg>
+<arg>${BASE_URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-04-10T15:30:53.918128" elapsed="23.032140"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-04-10T15:31:16.950550" elapsed="0.060786"/>
+</kw>
+<doc>Opens the application</doc>
+<status status="PASS" start="2026-04-10T15:30:53.917948" elapsed="23.093638"/>
+</kw>
+<kw name="Log In The Application" owner="login_page">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-04-10T15:31:17.015127" level="INFO">Clicking element 'xpath=//i[@class="g-user"]'.</msg>
+<arg>${account_link}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-04-10T15:31:17.013389" elapsed="3.928535"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-04-10T15:31:20.942624" level="INFO">Clicking on the account link</msg>
+<arg>Clicking on the account link</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-10T15:31:20.942213" elapsed="0.000484"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-04-10T15:31:20.943319" level="INFO">Typing text 'khushbu@gmail.com' into text field 'xpath=(//input[@type="email"])[2]'.</msg>
+<arg>${email_label}</arg>
+<arg>${email}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-04-10T15:31:20.942992" elapsed="0.261350"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-04-10T15:31:21.205571" level="INFO">Entering email</msg>
+<arg>Entering email</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-10T15:31:21.204986" elapsed="0.000946"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-04-10T15:31:21.206728" level="INFO">Typing text 'khushbu@1234' into text field 'xpath=//input[@type="password"]'.</msg>
+<arg>${password_label}</arg>
+<arg>${pwd}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-04-10T15:31:21.206248" elapsed="0.155662"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-04-10T15:31:21.362831" level="INFO">Entering password</msg>
+<arg>Entering password</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-10T15:31:21.362265" elapsed="0.000684"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-04-10T15:31:21.363679" level="INFO">Clicking element 'xpath=(//button[@type="submit"])[3]'.</msg>
+<arg>${sign_in_btn}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-04-10T15:31:21.363274" elapsed="3.969846"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-04-10T15:31:25.333751" level="INFO">SIGNUP button</msg>
+<arg>SIGNUP button</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-10T15:31:25.333310" elapsed="0.000550"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-04-10T15:31:35.337367" level="INFO">Slept 10 seconds.</msg>
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-04-10T15:31:25.334056" elapsed="10.003861"/>
+</kw>
+<kw name="Page Should Contain Element" owner="SeleniumLibrary">
+<msg time="2026-04-10T15:31:35.369378" level="INFO">Current page contains element 'xpath=//a[@href="/account/logout"]'.</msg>
+<arg>xpath=//a[@href="/account/logout"]</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<status status="PASS" start="2026-04-10T15:31:35.339044" elapsed="0.030434"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2026-04-10T15:31:35.392615" level="INFO">Current page contains text 'Account'.</msg>
+<arg>Account</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2026-04-10T15:31:35.369634" elapsed="0.023158"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-04-10T15:31:38.396364" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-04-10T15:31:35.393075" elapsed="3.003646"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-04-10T15:31:38.397386" elapsed="2.368958"/>
+</kw>
+<arg>${USER_EMAIL}</arg>
+<arg>${USER_PWD}</arg>
+<doc>this logins in the login page</doc>
+<status status="PASS" start="2026-04-10T15:31:17.012677" elapsed="23.753888"/>
+</kw>
+<kw name="Close Application" owner="common_resources" type="TEARDOWN">
+<kw name="Close All Browsers" owner="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2026-04-10T15:31:40.767793" elapsed="0.000206"/>
+</kw>
+<status status="PASS" start="2026-04-10T15:31:40.767299" elapsed="0.000799"/>
+</kw>
+<doc>check if the user is able to login</doc>
+<tag>functional</tag>
+<status status="PASS" start="2026-04-10T15:30:53.917591" elapsed="46.850753"/>
+</test>
+<status status="PASS" start="2026-04-10T15:30:53.736502" elapsed="47.032825"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">functional</stat>
+</tag>
+<suite>
+<stat name="Test Login Page" id="s1" pass="1" fail="0" skip="0">Test Login Page</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.13.9 on win32)" generated="2026-04-04T15:28:58.096196" rpa="false" schemaversion="5">
+<suite id="s1" name="Test Login Page" source="C:\Users\DELL\Desktop\Task_Framework\tests\functional\test_login_page.robot">
+<test id="s1-t1" name="TC02 Login User" line="9">
+<kw name="Open Application" owner="common_resources" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-04-04T15:28:58.364629" level="INFO">Opening browser 'chrome' to base url 'https://gullylabs.com/'.</msg>
+<arg>${url}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-04-04T15:28:58.364422" elapsed="5.475183"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<msg time="2026-04-04T15:29:03.861002" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.177)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff721f729c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff721c9a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff7219fdb2d]
+	chromedriver!(No symbol) [0x7ff7219d4322]
+	chromedriver!(No symbol) [0x7ff721a86e86]
+	chromedriver!(No symbol) [0x7ff721aa3482]
+	chromedriver!(No symbol) [0x7ff721a49298]
+	chromedriver!(No symbol) [0x7ff721a4a183]
+	chromedriver!GetHandleVerifier [0x7ff721f9de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff721f98588+313348]
+	chromedriver!GetHandleVerifier [0x7ff721fb9d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff721cb6785+31545]
+	chromedriver!GetHandleVerifier [0x7ff721cbfacc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff721ca3634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff721ca37e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff721c87e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ff98282e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff9842cc3fc+2c]
+</msg>
+<msg time="2026-04-04T15:29:03.873477" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.177)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff721f729c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff721c9a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff7219fdb2d]
+	chromedriver!(No symbol) [0x7ff7219d4322]
+	chromedriver!(No symbol) [0x7ff721a86e86]
+	chromedriver!(No symbol) [0x7ff721aa3482]
+	chromedriver!(No symbol) [0x7ff721a49298]
+	chromedriver!(No symbol) [0x7ff721a4a183]
+	chromedriver!GetHandleVerifier [0x7ff721f9de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff721f98588+313348]
+	chromedriver!GetHandleVerifier [0x7ff721fb9d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff721cb6785+31545]
+	chromedriver!GetHandleVerifier [0x7ff721cbfacc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff721ca3634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff721ca37e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff721c87e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ff98282e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff9842cc3fc+2c]
+</msg>
+<doc>Maximizes current browser window.</doc>
+<status status="FAIL" start="2026-04-04T15:29:03.841574" elapsed="0.053537">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.177)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff721f729c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff721c9a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff7219fdb2d]
+	chromedriver!(No symbol) [0x7ff7219d4322]
+	chromedriver!(No symbol) [0x7ff721a86e86]
+	chromedriver!(No symbol) [0x7ff721aa3482]
+	chromedriver!(No symbol) [0x7ff721a49298]
+	chromedriver!(No symbol) [0x7ff721a4a183]
+	chromedriver!GetHandleVerifier [0x7ff721f9de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff721f98588+313348]
+	chromedriver!GetHandleVerifier [0x7ff721fb9d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff721cb6785+31545]
+	chromedriver!GetHandleVerifier [0x7ff721cbfacc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff721ca3634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff721ca37e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff721c87e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ff98282e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff9842cc3fc+2c]
+</status>
+</kw>
+<arg>https://gullylabs.com/</arg>
+<doc>Opens the application</doc>
+<status status="FAIL" start="2026-04-04T15:28:58.363496" elapsed="5.536151">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.177)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff721f729c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff721c9a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff7219fdb2d]
+	chromedriver!(No symbol) [0x7ff7219d4322]
+	chromedriver!(No symbol) [0x7ff721a86e86]
+	chromedriver!(No symbol) [0x7ff721aa3482]
+	chromedriver!(No symbol) [0x7ff721a49298]
+	chromedriver!(No symbol) [0x7ff721a4a183]
+	chromedriver!GetHandleVerifier [0x7ff721f9de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff721f98588+313348]
+	chromedriver!GetHandleVerifier [0x7ff721fb9d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff721cb6785+31545]
+	chromedriver!GetHandleVerifier [0x7ff721cbfacc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff721ca3634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff721ca37e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff721c87e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ff98282e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff9842cc3fc+2c]
+</status>
+</kw>
+<kw name="Close Application" owner="common_resources" type="TEARDOWN">
+<kw name="Close All Browsers" owner="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2026-04-04T15:29:03.906754" elapsed="2.771404"/>
+</kw>
+<status status="PASS" start="2026-04-04T15:29:03.905853" elapsed="2.772623"/>
+</kw>
+<doc>check if the user is able to login</doc>
+<tag>functional</tag>
+<status status="FAIL" start="2026-04-04T15:28:58.362829" elapsed="8.316052">Setup failed:
+NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.177)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff721f729c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff721c9a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff7219fdb2d]
+	chromedriver!(No symbol) [0x7ff7219d4322]
+	chromedriver!(No symbol) [0x7ff721a86e86]
+	chromedriver!(No symbol) [0x7ff721aa3482]
+	chromedriver!(No symbol) [0x7ff721a49298]
+	chromedriver!(No symbol) [0x7ff721a4a183]
+	chromedriver!GetHandleVerifier [0x7ff721f9de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff721f98588+313348]
+	chromedriver!GetHandleVerifier [0x7ff721fb9d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff721cb6785+31545]
+	chromedriver!GetHandleVerifier [0x7ff721cbfacc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff721ca3634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff721ca37e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff721c87e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ff98282e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff9842cc3fc+2c]
+</status>
+</test>
+<status status="FAIL" start="2026-04-04T15:28:58.099812" elapsed="8.580774"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">functional</stat>
+</tag>
+<suite>
+<stat name="Test Login Page" id="s1" pass="0" fail="1" skip="0">Test Login Page</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-04-04T15:29:03.861002" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.177)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff721f729c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff721c9a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff7219fdb2d]
+	chromedriver!(No symbol) [0x7ff7219d4322]
+	chromedriver!(No symbol) [0x7ff721a86e86]
+	chromedriver!(No symbol) [0x7ff721aa3482]
+	chromedriver!(No symbol) [0x7ff721a49298]
+	chromedriver!(No symbol) [0x7ff721a4a183]
+	chromedriver!GetHandleVerifier [0x7ff721f9de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff721f98588+313348]
+	chromedriver!GetHandleVerifier [0x7ff721fb9d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff721cb6785+31545]
+	chromedriver!GetHandleVerifier [0x7ff721cbfacc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff721ca3634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff721ca37e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff721c87e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ff98282e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff9842cc3fc+2c]
+</msg>
+</errors>
+</robot>
